@@ -433,6 +433,7 @@ display: block;
     display: none;
     animation: fadeIn ease-in 0.2s;
     cursor: default;
+    z-index: 3;
 }
 
 .header__cart-wrap{
@@ -1055,6 +1056,5 @@ font-size: 1.3rem;
 .nav-pills .nav-link{
     background-color: white;
 }
-ul#pills-tab {
-display: block;
-}
+
+

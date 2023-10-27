@@ -210,7 +210,7 @@ border-radius: 3px;
 }
 .header__navbar-item--has-notify:hover .header__notify{
     display: block;
-    z-index: 1;
+    z-index: 10;
 }
 .header__notify::before{
     content: "";
@@ -701,6 +701,7 @@ margin-left:12px ;
     border-radius: 2px;
     box-shadow: 0 1px 5px #999;
     display: none;
+    z-index: 5;
     
 }
 .header__search-history-heading{
@@ -1047,4 +1048,13 @@ font-size: 1.3rem;
     color:var(--white-color);
     font-weight: 600;
     font-size: 1.4rem;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: var(--primary-color);
+}
+.nav-pills .nav-link{
+    background-color: white;
+}
+ul#pills-tab {
+display: block;
 }
